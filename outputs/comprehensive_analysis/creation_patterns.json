@@ -1,0 +1,36 @@
+{
+  "total_create_events": 8834,
+  "cases_with_create": 167,
+  "create_events_per_case": 52.9,
+  "fields_set_at_creation": {
+    "pricingerrorcode": 167,
+    "skippricecalculation": 167,
+    "statecode": 167,
+    "totaldiscountamount": 167,
+    "totaldiscountamount_base": 167,
+    "totallineitemdiscountamount": 167,
+    "totallineitemdiscountamount_base": 167,
+    "processid": 167,
+    "prioritycode": 167,
+    "salesstagecode": 167,
+    "statuscode": 167,
+    "exchangerate": 167,
+    "new_oppotunitytype": 167,
+    "msdyn_forecastcategory": 167,
+    "msdyn_ordertype": 167,
+    "opportunityratingcode": 167,
+    "the000g_revenuetype": 167,
+    "customerid": 167,
+    "owningbusinessunit": 167,
+    "adx_feedbackyet": 167
+  },
+  "actors_by_creation": {
+    "ACTOR-0009": 3326,
+    "ACTOR-0002": 2767,
+    "ACTOR-0003": 1619,
+    "ACTOR-0007": 465,
+    "ACTOR-0005": 439,
+    "ACTOR-0006": 166,
+    "ACTOR-0001": 52
+  }
+}

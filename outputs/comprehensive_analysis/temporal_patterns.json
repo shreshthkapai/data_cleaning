@@ -1,0 +1,43 @@
+{
+  "hour_distribution": {
+    "4": 6,
+    "5": 3,
+    "6": 67,
+    "7": 231,
+    "8": 374,
+    "9": 2118,
+    "10": 2316,
+    "11": 1345,
+    "12": 972,
+    "13": 820,
+    "14": 914,
+    "15": 1041,
+    "16": 310,
+    "17": 319,
+    "19": 2,
+    "20": 2
+  },
+  "day_of_week_distribution": {
+    "Tuesday": 3083,
+    "Monday": 2316,
+    "Wednesday": 1918,
+    "Friday": 1717,
+    "Thursday": 1658,
+    "Sunday": 148
+  },
+  "month_distribution": {
+    "1": 2320,
+    "8": 1574,
+    "9": 1552,
+    "10": 3378,
+    "11": 1103,
+    "12": 913
+  },
+  "daily_volume": {
+    "mean_per_day": 121.79775280898876,
+    "max_per_day": 483,
+    "min_per_day": 2
+  },
+  "weekend_activity_pct": 1.37,
+  "business_hours_pct": 93.68
+}

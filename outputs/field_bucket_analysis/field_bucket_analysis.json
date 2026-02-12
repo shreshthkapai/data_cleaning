@@ -1,0 +1,1515 @@
+{
+  "total_fields": 63,
+  "bucket_counts": {
+    "KILL_NOISE": 9,
+    "L1_STAGE": 11,
+    "L2_MILESTONE": 31,
+    "L3_ADMIN": 9,
+    "UNKNOWN": 3
+  },
+  "fields_by_bucket": {
+    "KILL_NOISE": [
+      {
+        "field": "pricelevelid",
+        "occurrences": 170,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "exchangerate",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "pricingerrorcode",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "skippricecalculation",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "totaldiscountamount",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "totaldiscountamount_base",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "totallineitemdiscountamount",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "totallineitemdiscountamount_base",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "transactioncurrencyid",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      }
+    ],
+    "L1_STAGE": [
+      {
+        "field": "estimatedclosedate",
+        "occurrences": 306,
+        "case_coverage_pct": 27.91,
+        "cases_affected": 187
+      },
+      {
+        "field": "msdyn_forecastcategory",
+        "occurrences": 305,
+        "case_coverage_pct": 30.6,
+        "cases_affected": 205
+      },
+      {
+        "field": "statuscode",
+        "occurrences": 295,
+        "case_coverage_pct": 30.3,
+        "cases_affected": 203
+      },
+      {
+        "field": "statecode",
+        "occurrences": 292,
+        "case_coverage_pct": 30.3,
+        "cases_affected": 203
+      },
+      {
+        "field": "stepname",
+        "occurrences": 269,
+        "case_coverage_pct": 25.67,
+        "cases_affected": 172
+      },
+      {
+        "field": "processid",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "salesstagecode",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "actualclosedate",
+        "occurrences": 126,
+        "case_coverage_pct": 15.82,
+        "cases_affected": 106
+      },
+      {
+        "field": "salesstage",
+        "occurrences": 122,
+        "case_coverage_pct": 15.22,
+        "cases_affected": 102
+      },
+      {
+        "field": "closeprobability",
+        "occurrences": 120,
+        "case_coverage_pct": 15.82,
+        "cases_affected": 106
+      },
+      {
+        "field": "the000g_purchaseorderstatus",
+        "occurrences": 2,
+        "case_coverage_pct": 0.3,
+        "cases_affected": 2
+      }
+    ],
+    "L2_MILESTONE": [
+      {
+        "field": "the000g_revenuetype",
+        "occurrences": 344,
+        "case_coverage_pct": 50.15,
+        "cases_affected": 336
+      },
+      {
+        "field": "completefinalproposal",
+        "occurrences": 169,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "developproposal",
+        "occurrences": 169,
+        "case_coverage_pct": 25.07,
+        "cases_affected": 168
+      },
+      {
+        "field": "adx_readyfordistribution",
+        "occurrences": 168,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "completeinternalreview",
+        "occurrences": 168,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "identifycustomercontacts",
+        "occurrences": 168,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "identifypursuitteam",
+        "occurrences": 168,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "msdyn_ordertype",
+        "occurrences": 168,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "new_oppotunitytype",
+        "occurrences": 168,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "presentfinalproposal",
+        "occurrences": 168,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "presentproposal",
+        "occurrences": 168,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "adx_feedbackyet",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "adx_partnercollaboration",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "adx_partnercreated",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "captureproposalfeedback",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "confirminterest",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "decisionmaker",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "evaluatefit",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "filedebrief",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "identifycompetitors",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "isrevenuesystemcalculated",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "li_isinfluenced",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "msdyn_gdproptout",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "new_evaluatefit2",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "opportunityratingcode",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "pursuitdecision",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "resolvefeedback",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "the000g__revenuetype",
+        "occurrences": 102,
+        "case_coverage_pct": 15.07,
+        "cases_affected": 101
+      },
+      {
+        "field": "purchasetimeframe",
+        "occurrences": 91,
+        "case_coverage_pct": 13.43,
+        "cases_affected": 90
+      },
+      {
+        "field": "purchaseprocess",
+        "occurrences": 81,
+        "case_coverage_pct": 11.79,
+        "cases_affected": 79
+      },
+      {
+        "field": "new_contracttermmonths",
+        "occurrences": 75,
+        "case_coverage_pct": 9.7,
+        "cases_affected": 65
+      }
+    ],
+    "L3_ADMIN": [
+      {
+        "field": "ownerid",
+        "occurrences": 498,
+        "case_coverage_pct": 73.88,
+        "cases_affected": 495
+      },
+      {
+        "field": "owningbusinessunit",
+        "occurrences": 415,
+        "case_coverage_pct": 61.49,
+        "cases_affected": 412
+      },
+      {
+        "field": "the000g_isrenewal",
+        "occurrences": 193,
+        "case_coverage_pct": 28.36,
+        "cases_affected": 190
+      },
+      {
+        "field": "customerid",
+        "occurrences": 173,
+        "case_coverage_pct": 25.07,
+        "cases_affected": 168
+      },
+      {
+        "field": "parentaccountid",
+        "occurrences": 169,
+        "case_coverage_pct": 25.07,
+        "cases_affected": 168
+      },
+      {
+        "field": "participatesinworkflow",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "prioritycode",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "sendthankyounote",
+        "occurrences": 167,
+        "case_coverage_pct": 24.93,
+        "cases_affected": 167
+      },
+      {
+        "field": "parentcontactid",
+        "occurrences": 161,
+        "case_coverage_pct": 24.03,
+        "cases_affected": 161
+      }
+    ],
+    "UNKNOWN": [
+      {
+        "field": "new_contractterm",
+        "occurrences": 3,
+        "case_coverage_pct": 0.45,
+        "cases_affected": 3
+      },
+      {
+        "field": "finaldecisiondate",
+        "occurrences": 2,
+        "case_coverage_pct": 0.3,
+        "cases_affected": 2
+      },
+      {
+        "field": "originatingleadid",
+        "occurrences": 1,
+        "case_coverage_pct": 0.15,
+        "cases_affected": 1
+      }
+    ]
+  },
+  "detailed_analysis": [
+    {
+      "field": "pricelevelid",
+      "total_occurrences": 170,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 2,
+      "unique_old_values": 1,
+      "empty_old_pct": 98.24,
+      "operations": {
+        "Create": 167,
+        "Update": 3
+      },
+      "top_new_values": [
+        "pricelevel,8c7dd2fa-737a-ea11-a811-000d3a44a2a9",
+        "pricelevel,dbf9d8bd-9dce-f011-8543-7c1e524d7bb1"
+      ],
+      "suggested_bucket": "KILL_NOISE"
+    },
+    {
+      "field": "exchangerate",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "1"
+      ],
+      "suggested_bucket": "KILL_NOISE"
+    },
+    {
+      "field": "pricingerrorcode",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "0"
+      ],
+      "suggested_bucket": "KILL_NOISE"
+    },
+    {
+      "field": "skippricecalculation",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "0"
+      ],
+      "suggested_bucket": "KILL_NOISE"
+    },
+    {
+      "field": "totaldiscountamount",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "0"
+      ],
+      "suggested_bucket": "KILL_NOISE"
+    },
+    {
+      "field": "totaldiscountamount_base",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "0"
+      ],
+      "suggested_bucket": "KILL_NOISE"
+    },
+    {
+      "field": "totallineitemdiscountamount",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "0"
+      ],
+      "suggested_bucket": "KILL_NOISE"
+    },
+    {
+      "field": "totallineitemdiscountamount_base",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "0"
+      ],
+      "suggested_bucket": "KILL_NOISE"
+    },
+    {
+      "field": "transactioncurrencyid",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "transactioncurrency,eac0ae4f-ead9-e611-80f2-5065f3"
+      ],
+      "suggested_bucket": "KILL_NOISE"
+    },
+    {
+      "field": "estimatedclosedate",
+      "total_occurrences": 306,
+      "cases_affected": 187,
+      "case_coverage_pct": 27.91,
+      "unique_new_values": 130,
+      "unique_old_values": 74,
+      "empty_old_pct": 54.58,
+      "operations": {
+        "Create": 166,
+        "Update": 140
+      },
+      "top_new_values": [
+        "10/31/25 0:00",
+        "2/26/26 0:00",
+        "1/29/26 0:00",
+        "2/20/26 0:00",
+        "1/30/26 0:00"
+      ],
+      "suggested_bucket": "L1_STAGE"
+    },
+    {
+      "field": "msdyn_forecastcategory",
+      "total_occurrences": 305,
+      "cases_affected": 205,
+      "case_coverage_pct": 30.6,
+      "unique_new_values": 5,
+      "unique_old_values": 4,
+      "empty_old_pct": 54.75,
+      "operations": {
+        "Create": 167,
+        "Update": 138
+      },
+      "top_new_values": [
+        "100000001",
+        "100000005",
+        "100000006",
+        "100000002",
+        "100000003"
+      ],
+      "suggested_bucket": "L1_STAGE"
+    },
+    {
+      "field": "statuscode",
+      "total_occurrences": 295,
+      "cases_affected": 203,
+      "case_coverage_pct": 30.3,
+      "unique_new_values": 9,
+      "unique_old_values": 4,
+      "empty_old_pct": 56.61,
+      "operations": {
+        "Create": 167,
+        "Update": 128
+      },
+      "top_new_values": [
+        "1",
+        "3",
+        "4",
+        "100000003",
+        "100000006"
+      ],
+      "suggested_bucket": "L1_STAGE"
+    },
+    {
+      "field": "statecode",
+      "total_occurrences": 292,
+      "cases_affected": 203,
+      "case_coverage_pct": 30.3,
+      "unique_new_values": 3,
+      "unique_old_values": 2,
+      "empty_old_pct": 57.19,
+      "operations": {
+        "Create": 167,
+        "Update": 125
+      },
+      "top_new_values": [
+        "0",
+        "1",
+        "2"
+      ],
+      "suggested_bucket": "L1_STAGE"
+    },
+    {
+      "field": "stepname",
+      "total_occurrences": 269,
+      "cases_affected": 172,
+      "case_coverage_pct": 25.67,
+      "unique_new_values": 6,
+      "unique_old_values": 6,
+      "empty_old_pct": 63.94,
+      "operations": {
+        "Update": 265,
+        "Create": 4
+      },
+      "top_new_values": [
+        "14-Qualify",
+        "15-Develop",
+        "16-Propose",
+        "17-Close",
+        "16-"
+      ],
+      "suggested_bucket": "L1_STAGE"
+    },
+    {
+      "field": "processid",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "00000000-0000-0000-0000-000000000000"
+      ],
+      "suggested_bucket": "L1_STAGE"
+    },
+    {
+      "field": "salesstagecode",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "1"
+      ],
+      "suggested_bucket": "L1_STAGE"
+    },
+    {
+      "field": "actualclosedate",
+      "total_occurrences": 126,
+      "cases_affected": 106,
+      "case_coverage_pct": 15.82,
+      "unique_new_values": 57,
+      "unique_old_values": 6,
+      "empty_old_pct": 88.89,
+      "operations": {
+        "Update": 125,
+        "Create": 1
+      },
+      "top_new_values": [
+        "10/17/25 0:00",
+        "10/6/25 0:00",
+        "9/26/25 0:00",
+        "11/11/25 0:00",
+        "10/29/25 0:00"
+      ],
+      "suggested_bucket": "L1_STAGE"
+    },
+    {
+      "field": "salesstage",
+      "total_occurrences": 122,
+      "cases_affected": 102,
+      "case_coverage_pct": 15.22,
+      "unique_new_values": 2,
+      "unique_old_values": 2,
+      "empty_old_pct": 83.61,
+      "operations": {
+        "Update": 121,
+        "Create": 1
+      },
+      "top_new_values": [
+        "3",
+        "0"
+      ],
+      "suggested_bucket": "L1_STAGE"
+    },
+    {
+      "field": "closeprobability",
+      "total_occurrences": 120,
+      "cases_affected": 106,
+      "case_coverage_pct": 15.82,
+      "unique_new_values": 4,
+      "unique_old_values": 4,
+      "empty_old_pct": 88.33,
+      "operations": {
+        "Create": 75,
+        "Update": 45
+      },
+      "top_new_values": [
+        "25",
+        "75",
+        "50",
+        "100"
+      ],
+      "suggested_bucket": "L1_STAGE"
+    },
+    {
+      "field": "the000g_purchaseorderstatus",
+      "total_occurrences": 2,
+      "cases_affected": 2,
+      "case_coverage_pct": 0.3,
+      "unique_new_values": 2,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Update": 2
+      },
+      "top_new_values": [
+        "604720002",
+        "604720000"
+      ],
+      "suggested_bucket": "L1_STAGE"
+    },
+    {
+      "field": "the000g_revenuetype",
+      "total_occurrences": 344,
+      "cases_affected": 336,
+      "case_coverage_pct": 50.15,
+      "unique_new_values": 5,
+      "unique_old_values": 2,
+      "empty_old_pct": 97.38,
+      "operations": {
+        "Update": 177,
+        "Create": 167
+      },
+      "top_new_values": [
+        "604720001",
+        "604720002",
+        "604720000",
+        "604720003",
+        "604720004"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "completefinalproposal",
+      "total_occurrences": 169,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 2,
+      "unique_old_values": 1,
+      "empty_old_pct": 98.82,
+      "operations": {
+        "Create": 167,
+        "Update": 2
+      },
+      "top_new_values": [
+        "FALSE",
+        "TRUE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "developproposal",
+      "total_occurrences": 169,
+      "cases_affected": 168,
+      "case_coverage_pct": 25.07,
+      "unique_new_values": 2,
+      "unique_old_values": 1,
+      "empty_old_pct": 98.82,
+      "operations": {
+        "Create": 167,
+        "Update": 2
+      },
+      "top_new_values": [
+        "FALSE",
+        "TRUE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "adx_readyfordistribution",
+      "total_occurrences": 168,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 2,
+      "unique_old_values": 1,
+      "empty_old_pct": 99.4,
+      "operations": {
+        "Create": 167,
+        "Update": 1
+      },
+      "top_new_values": [
+        "FALSE",
+        "TRUE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "completeinternalreview",
+      "total_occurrences": 168,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 2,
+      "unique_old_values": 1,
+      "empty_old_pct": 99.4,
+      "operations": {
+        "Create": 167,
+        "Update": 1
+      },
+      "top_new_values": [
+        "FALSE",
+        "TRUE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "identifycustomercontacts",
+      "total_occurrences": 168,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 2,
+      "unique_old_values": 1,
+      "empty_old_pct": 99.4,
+      "operations": {
+        "Create": 167,
+        "Update": 1
+      },
+      "top_new_values": [
+        "FALSE",
+        "TRUE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "identifypursuitteam",
+      "total_occurrences": 168,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 2,
+      "unique_old_values": 1,
+      "empty_old_pct": 99.4,
+      "operations": {
+        "Create": 167,
+        "Update": 1
+      },
+      "top_new_values": [
+        "FALSE",
+        "TRUE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "msdyn_ordertype",
+      "total_occurrences": 168,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 2,
+      "unique_old_values": 1,
+      "empty_old_pct": 99.4,
+      "operations": {
+        "Create": 167,
+        "Update": 1
+      },
+      "top_new_values": [
+        "192350001",
+        "192350000"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "new_oppotunitytype",
+      "total_occurrences": 168,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 2,
+      "unique_old_values": 1,
+      "empty_old_pct": 99.4,
+      "operations": {
+        "Create": 167,
+        "Update": 1
+      },
+      "top_new_values": [
+        "100000000",
+        "100000001"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "presentfinalproposal",
+      "total_occurrences": 168,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 2,
+      "unique_old_values": 1,
+      "empty_old_pct": 99.4,
+      "operations": {
+        "Create": 167,
+        "Update": 1
+      },
+      "top_new_values": [
+        "FALSE",
+        "TRUE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "presentproposal",
+      "total_occurrences": 168,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 2,
+      "unique_old_values": 1,
+      "empty_old_pct": 99.4,
+      "operations": {
+        "Create": 167,
+        "Update": 1
+      },
+      "top_new_values": [
+        "FALSE",
+        "TRUE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "adx_feedbackyet",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "adx_partnercollaboration",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "adx_partnercreated",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "captureproposalfeedback",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "confirminterest",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "decisionmaker",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "evaluatefit",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "TRUE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "filedebrief",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "identifycompetitors",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "isrevenuesystemcalculated",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "li_isinfluenced",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "msdyn_gdproptout",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "new_evaluatefit2",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "opportunityratingcode",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "2"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "pursuitdecision",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "resolvefeedback",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "the000g__revenuetype",
+      "total_occurrences": 102,
+      "cases_affected": 101,
+      "case_coverage_pct": 15.07,
+      "unique_new_values": 5,
+      "unique_old_values": 1,
+      "empty_old_pct": 99.02,
+      "operations": {
+        "Update": 63,
+        "Create": 39
+      },
+      "top_new_values": [
+        "604720002",
+        "604720001",
+        "604720003",
+        "604720004",
+        "604720005"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "purchasetimeframe",
+      "total_occurrences": 91,
+      "cases_affected": 90,
+      "case_coverage_pct": 13.43,
+      "unique_new_values": 5,
+      "unique_old_values": 1,
+      "empty_old_pct": 98.9,
+      "operations": {
+        "Create": 82,
+        "Update": 9
+      },
+      "top_new_values": [
+        "1",
+        "2",
+        "0",
+        "4",
+        "3"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "purchaseprocess",
+      "total_occurrences": 81,
+      "cases_affected": 79,
+      "case_coverage_pct": 11.79,
+      "unique_new_values": 3,
+      "unique_old_values": 1,
+      "empty_old_pct": 97.53,
+      "operations": {
+        "Create": 72,
+        "Update": 9
+      },
+      "top_new_values": [
+        "1",
+        "0",
+        "2"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "new_contracttermmonths",
+      "total_occurrences": 75,
+      "cases_affected": 65,
+      "case_coverage_pct": 9.7,
+      "unique_new_values": 13,
+      "unique_old_values": 7,
+      "empty_old_pct": 85.33,
+      "operations": {
+        "Create": 52,
+        "Update": 23
+      },
+      "top_new_values": [
+        "12",
+        "36",
+        "3",
+        "2",
+        "6"
+      ],
+      "suggested_bucket": "L2_MILESTONE"
+    },
+    {
+      "field": "ownerid",
+      "total_occurrences": 498,
+      "cases_affected": 495,
+      "case_coverage_pct": 73.88,
+      "unique_new_values": 7,
+      "unique_old_values": 12,
+      "empty_old_pct": 33.53,
+      "operations": {
+        "Update": 331,
+        "Create": 167
+      },
+      "top_new_values": [
+        "systemuser,efd3822d-8c8b-4619-8eb9-39ddf9c5c57f",
+        "systemuser,b5f00e27-78b3-4a71-90af-5dcef3c25bba",
+        "systemuser,09f34b91-4d86-4fc8-8b41-8af3d91e94bf",
+        "systemuser,33e3af6d-9b6c-4c1f-9efe-82d0f365ef59",
+        "systemuser,556e9f3d-fc0e-4f50-9a1d-bcc7bb34d343"
+      ],
+      "suggested_bucket": "L3_ADMIN"
+    },
+    {
+      "field": "owningbusinessunit",
+      "total_occurrences": 415,
+      "cases_affected": 412,
+      "case_coverage_pct": 61.49,
+      "unique_new_values": 1,
+      "unique_old_values": 1,
+      "empty_old_pct": 40.24,
+      "operations": {
+        "Update": 248,
+        "Create": 167
+      },
+      "top_new_values": [
+        "businessunit,0a4ccfd6-e6d9-e611-80f2-5065f38aba91"
+      ],
+      "suggested_bucket": "L3_ADMIN"
+    },
+    {
+      "field": "the000g_isrenewal",
+      "total_occurrences": 193,
+      "cases_affected": 190,
+      "case_coverage_pct": 28.36,
+      "unique_new_values": 2,
+      "unique_old_values": 2,
+      "empty_old_pct": 98.45,
+      "operations": {
+        "Create": 167,
+        "Update": 26
+      },
+      "top_new_values": [
+        "FALSE",
+        "TRUE"
+      ],
+      "suggested_bucket": "L3_ADMIN"
+    },
+    {
+      "field": "customerid",
+      "total_occurrences": 173,
+      "cases_affected": 168,
+      "case_coverage_pct": 25.07,
+      "unique_new_values": 70,
+      "unique_old_values": 5,
+      "empty_old_pct": 96.53,
+      "operations": {
+        "Create": 167,
+        "Update": 6
+      },
+      "top_new_values": [
+        "account,99057b55-dedf-e611-80f3-5065f38bd451",
+        "account,c35c0ed0-7f3b-ea11-a812-000d3a44a237",
+        "account,da116534-b573-ec11-8943-000d3abbe90b",
+        "account,a87e6578-8100-ee11-8f6d-6045bd88d9db",
+        "account,7447abb5-dc97-ed11-aad1-6045bd8c5333"
+      ],
+      "suggested_bucket": "L3_ADMIN"
+    },
+    {
+      "field": "parentaccountid",
+      "total_occurrences": 169,
+      "cases_affected": 168,
+      "case_coverage_pct": 25.07,
+      "unique_new_values": 65,
+      "unique_old_values": 1,
+      "empty_old_pct": 98.82,
+      "operations": {
+        "Create": 163,
+        "Update": 6
+      },
+      "top_new_values": [
+        "account,99057b55-dedf-e611-80f3-5065f38bd451",
+        "account,c35c0ed0-7f3b-ea11-a812-000d3a44a237",
+        "account,da116534-b573-ec11-8943-000d3abbe90b",
+        "account,a87e6578-8100-ee11-8f6d-6045bd88d9db",
+        "account,7447abb5-dc97-ed11-aad1-6045bd8c5333"
+      ],
+      "suggested_bucket": "L3_ADMIN"
+    },
+    {
+      "field": "participatesinworkflow",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L3_ADMIN"
+    },
+    {
+      "field": "prioritycode",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "1"
+      ],
+      "suggested_bucket": "L3_ADMIN"
+    },
+    {
+      "field": "sendthankyounote",
+      "total_occurrences": 167,
+      "cases_affected": 167,
+      "case_coverage_pct": 24.93,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 167
+      },
+      "top_new_values": [
+        "FALSE"
+      ],
+      "suggested_bucket": "L3_ADMIN"
+    },
+    {
+      "field": "parentcontactid",
+      "total_occurrences": 161,
+      "cases_affected": 161,
+      "case_coverage_pct": 24.03,
+      "unique_new_values": 73,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 161
+      },
+      "top_new_values": [
+        "contact,0efa4295-ab84-ef11-ac20-0022488194fb",
+        "contact,54c06298-5f6b-ef11-bfe2-002248803d28",
+        "contact,c5edd0fb-ff62-f011-bec3-00224886d23e",
+        "contact,a77e6578-8100-ee11-8f6d-6045bd88d9db",
+        "contact,97af0756-3a97-ed11-aad1-6045bd8c5333"
+      ],
+      "suggested_bucket": "L3_ADMIN"
+    },
+    {
+      "field": "new_contractterm",
+      "total_occurrences": 3,
+      "cases_affected": 3,
+      "case_coverage_pct": 0.45,
+      "unique_new_values": 2,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Update": 2,
+        "Create": 1
+      },
+      "top_new_values": [
+        "100000002",
+        "100000004"
+      ],
+      "suggested_bucket": "UNKNOWN"
+    },
+    {
+      "field": "finaldecisiondate",
+      "total_occurrences": 2,
+      "cases_affected": 2,
+      "case_coverage_pct": 0.3,
+      "unique_new_values": 2,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Update": 2
+      },
+      "top_new_values": [
+        "12/1/25 0:00",
+        "8/29/25 0:00"
+      ],
+      "suggested_bucket": "UNKNOWN"
+    },
+    {
+      "field": "originatingleadid",
+      "total_occurrences": 1,
+      "cases_affected": 1,
+      "case_coverage_pct": 0.15,
+      "unique_new_values": 1,
+      "unique_old_values": 0,
+      "empty_old_pct": 100.0,
+      "operations": {
+        "Create": 1
+      },
+      "top_new_values": [
+        "lead,60da8ccc-7dae-48b2-9191-44253501dae0"
+      ],
+      "suggested_bucket": "UNKNOWN"
+    }
+  ]
+}

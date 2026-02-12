@@ -1,0 +1,154 @@
+{
+  "total_stepname_changes": 269,
+  "cases_with_stepname": 172,
+  "prefix_coverage_count": 263,
+  "prefix_coverage_pct": 97.77,
+  "stage_order": [
+    {
+      "prefix": 14,
+      "stage": "Qualify",
+      "count": 168
+    },
+    {
+      "prefix": 15,
+      "stage": "Develop",
+      "count": 36
+    },
+    {
+      "prefix": 16,
+      "stage": "Propose",
+      "count": 36
+    },
+    {
+      "prefix": 17,
+      "stage": "Close",
+      "count": 23
+    }
+  ],
+  "prefix_violations": {
+    "count": 38,
+    "cases_affected": 24,
+    "violations": [
+      {
+        "case_id": "ITEM-000028",
+        "timestamp": "2025-09-01T07:27:00",
+        "from_stage": "17-Close",
+        "to_stage": "16-Propose"
+      },
+      {
+        "case_id": "ITEM-000028",
+        "timestamp": "2025-09-01T07:27:00",
+        "from_stage": "16-Propose",
+        "to_stage": "15-Develop"
+      },
+      {
+        "case_id": "ITEM-000089",
+        "timestamp": "2026-01-15T12:27:00",
+        "from_stage": "17-Close",
+        "to_stage": "16-Propose"
+      },
+      {
+        "case_id": "ITEM-000089",
+        "timestamp": "2026-01-15T12:27:00",
+        "from_stage": "16-Propose",
+        "to_stage": "15-Develop"
+      },
+      {
+        "case_id": "ITEM-000099",
+        "timestamp": "2025-10-29T06:41:00",
+        "from_stage": "16-Propose",
+        "to_stage": "15-Develop"
+      },
+      {
+        "case_id": "ITEM-000104",
+        "timestamp": "2025-12-23T09:32:00",
+        "from_stage": "17-Close",
+        "to_stage": "16-Propose"
+      },
+      {
+        "case_id": "ITEM-000104",
+        "timestamp": "2025-12-23T09:32:00",
+        "from_stage": "16-Propose",
+        "to_stage": "15-Develop"
+      },
+      {
+        "case_id": "ITEM-000121",
+        "timestamp": "2026-01-05T15:19:00",
+        "from_stage": "",
+        "to_stage": ""
+      },
+      {
+        "case_id": "ITEM-000121",
+        "timestamp": "2026-01-05T15:19:00",
+        "from_stage": "",
+        "to_stage": "17-Close"
+      },
+      {
+        "case_id": "ITEM-000144",
+        "timestamp": "2026-01-05T15:20:00",
+        "from_stage": "16-Propose",
+        "to_stage": "15-Develop"
+      },
+      {
+        "case_id": "ITEM-000210",
+        "timestamp": "2025-11-18T09:32:00",
+        "from_stage": "17-Close",
+        "to_stage": "16-Propose"
+      },
+      {
+        "case_id": "ITEM-000210",
+        "timestamp": "2025-11-18T09:32:00",
+        "from_stage": "16-Propose",
+        "to_stage": "15-Develop"
+      },
+      {
+        "case_id": "ITEM-000223",
+        "timestamp": "2025-10-22T09:03:00",
+        "from_stage": "16-Propose",
+        "to_stage": "15-Develop"
+      },
+      {
+        "case_id": "ITEM-000258",
+        "timestamp": "2025-10-08T11:00:00",
+        "from_stage": "16-Propose",
+        "to_stage": "15-Develop"
+      },
+      {
+        "case_id": "ITEM-000281",
+        "timestamp": "2025-10-08T11:10:00",
+        "from_stage": "17-Close",
+        "to_stage": "16-Propose"
+      },
+      {
+        "case_id": "ITEM-000281",
+        "timestamp": "2025-10-08T11:10:00",
+        "from_stage": "16-Propose",
+        "to_stage": "15-Develop"
+      },
+      {
+        "case_id": "ITEM-000314",
+        "timestamp": "2026-01-05T15:26:00",
+        "from_stage": "16-Propose",
+        "to_stage": "15-Develop"
+      },
+      {
+        "case_id": "ITEM-000332",
+        "timestamp": "2025-12-01T16:55:00",
+        "from_stage": "17-Close",
+        "to_stage": "16-Propose"
+      },
+      {
+        "case_id": "ITEM-000332",
+        "timestamp": "2025-12-01T16:55:00",
+        "from_stage": "16-Propose",
+        "to_stage": "15-Develop"
+      },
+      {
+        "case_id": "ITEM-000382",
+        "timestamp": "2026-01-15T14:00:00",
+        "from_stage": "17-Close",
+        "to_stage": "16-Propose"
+      }
+    ]
+  }
+}

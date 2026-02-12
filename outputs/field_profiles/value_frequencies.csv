@@ -1,0 +1,112 @@
+column,value,frequency,percentage
+Anon Item ID,ITEM-000117,141,1.3
+Anon Item ID,ITEM-000333,73,0.67
+Anon Item ID,ITEM-000258,73,0.67
+Anon Item ID,ITEM-000099,71,0.65
+Anon Item ID,ITEM-000349,70,0.65
+Anon Item ID,ITEM-000178,69,0.64
+Anon Item ID,ITEM-000121,69,0.64
+Anon Item ID,ITEM-000612,69,0.64
+Anon Item ID,ITEM-000089,68,0.63
+Anon Item ID,ITEM-000301,68,0.63
+Anon Item ID,ITEM-000400,67,0.62
+Anon Item ID,ITEM-000124,67,0.62
+Anon Item ID,ITEM-000332,67,0.62
+Anon Item ID,ITEM-000391,66,0.61
+Anon Item ID,ITEM-000664,66,0.61
+Anon Item ID,ITEM-000104,66,0.61
+Anon Item ID,ITEM-000560,65,0.6
+Anon Item ID,ITEM-000510,64,0.59
+Anon Item ID,ITEM-000086,64,0.59
+Anon Item ID,ITEM-000525,64,0.59
+Operation,Create,8834,81.49
+Operation,Update,2006,18.51
+Field,ownerid,498,4.59
+Field,owningbusinessunit,415,3.83
+Field,the000g_revenuetype,344,3.17
+Field,estimatedclosedate,306,2.82
+Field,msdyn_forecastcategory,305,2.81
+Field,statuscode,295,2.72
+Field,statecode,292,2.69
+Field,stepname,269,2.48
+Field,the000g_isrenewal,193,1.78
+Field,customerid,173,1.6
+Field,pricelevelid,170,1.57
+Field,parentaccountid,169,1.56
+Field,completefinalproposal,169,1.56
+Field,developproposal,169,1.56
+Field,new_oppotunitytype,168,1.55
+Field,msdyn_ordertype,168,1.55
+Field,adx_readyfordistribution,168,1.55
+Field,completeinternalreview,168,1.55
+Field,identifycustomercontacts,168,1.55
+Field,identifypursuitteam,168,1.55
+Previous value,"businessunit,0a4ccfd6-e6d9-e611-80f2-5065f38aba91",248,2.29
+Previous value,0,125,1.15
+Previous value,1,123,1.13
+Previous value,"systemuser,7b9d5323-2ef3-4d52-9d6c-dd45deb05e3b",123,1.13
+Previous value,100000001,118,1.09
+Previous value,"systemuser,09f34b91-4d86-4fc8-8b41-8af3d91e94bf",67,0.62
+Previous value,14-Qualify,40,0.37
+Previous value,"systemuser,b5f00e27-78b3-4a71-90af-5dcef3c25bba",37,0.34
+Previous value,"systemuser,1cba5fd4-6e4e-4e0f-85ff-a6438bc2f2f0",36,0.33
+Previous value,15-Develop,28,0.26
+Previous value,"systemuser,2d7fbe83-3f35-4a1d-bc05-1b39dbf446d9",28,0.26
+Previous value,16-Propose,24,0.22
+Previous value,3,22,0.2
+Previous value,"systemuser,a1bb889b-dfab-4e28-b508-75e672da7cb8",13,0.12
+Previous value,FALSE,12,0.11
+Previous value,1/29/26 0:00,11,0.1
+Previous value,100000005,11,0.1
+Previous value,"systemuser,9ab13e3b-1ff4-4d57-a2c8-d0c8f2ce3f42",11,0.1
+Previous value,"systemuser,ddf0a409-01d5-4caa-bd27-c1b42fee109e",9,0.08
+Previous value,100000003,8,0.07
+New value,FALSE,4161,38.39
+New value,0,1240,11.44
+New value,1,817,7.54
+New value,"businessunit,0a4ccfd6-e6d9-e611-80f2-5065f38aba91",415,3.83
+New value,"systemuser,efd3822d-8c8b-4619-8eb9-39ddf9c5c57f",299,2.76
+New value,2,259,2.39
+New value,TRUE,217,2.0
+New value,604720001,202,1.86
+New value,3,193,1.78
+New value,100000001,177,1.63
+New value,14-Qualify,168,1.55
+New value,00000000-0000-0000-0000-000000000000,167,1.54
+New value,"transactioncurrency,eac0ae4f-ead9-e611-80f2-5065f38aba91",167,1.54
+New value,100000000,166,1.53
+New value,192350001,166,1.53
+New value,"pricelevel,8c7dd2fa-737a-ea11-a811-000d3a44a2a9",165,1.52
+New value,"systemuser,b5f00e27-78b3-4a71-90af-5dcef3c25bba",143,1.32
+New value,604720002,141,1.3
+New value,604720000,76,0.7
+New value,100000005,72,0.66
+Anon Actor,ACTOR-0009,3606,33.27
+Anon Actor,ACTOR-0002,3251,29.99
+Anon Actor,ACTOR-0003,2451,22.61
+Anon Actor,ACTOR-0007,513,4.73
+Anon Actor,ACTOR-0005,456,4.21
+Anon Actor,ACTOR-0008,244,2.25
+Anon Actor,ACTOR-0006,174,1.61
+Anon Actor,ACTOR-0004,93,0.86
+Anon Actor,ACTOR-0001,52,0.48
+Date logged,27/10/2025 11:18,74,0.68
+Date logged,7/10/25 10:45,62,0.57
+Date logged,22/10/2025 09:55,60,0.55
+Date logged,13/11/2025 14:50,59,0.54
+Date logged,15/12/2025 14:31,58,0.54
+Date logged,21/01/2026 13:23,57,0.53
+Date logged,16/01/2026 12:46,57,0.53
+Date logged,16/01/2026 09:25,57,0.53
+Date logged,14/01/2026 16:52,57,0.53
+Date logged,12/1/26 9:59,57,0.53
+Date logged,8/1/26 11:21,57,0.53
+Date logged,5/1/26 14:28,57,0.53
+Date logged,19/12/2025 10:23,57,0.53
+Date logged,19/12/2025 10:13,57,0.53
+Date logged,19/12/2025 10:01,57,0.53
+Date logged,28/10/2025 17:16,57,0.53
+Date logged,28/01/2026 10:37,56,0.52
+Date logged,28/01/2026 10:33,56,0.52
+Date logged,28/01/2026 08:54,56,0.52
+Date logged,27/01/2026 15:29,56,0.52

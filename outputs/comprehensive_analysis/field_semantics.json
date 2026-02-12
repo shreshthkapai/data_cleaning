@@ -1,0 +1,1242 @@
+[
+  {
+    "field": "ownerid",
+    "occurrence_count": 498,
+    "percentage_of_events": 4.59,
+    "cases_affected": 495,
+    "percentage_of_cases": 73.88,
+    "unique_old_values": 13,
+    "unique_new_values": 7,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Update": 331,
+      "Create": 167
+    },
+    "top_new_values": {
+      "systemuser,efd3822d-8c8b-4619-8eb9-39ddf9c5c57f": 299,
+      "systemuser,b5f00e27-78b3-4a71-90af-5dcef3c25bba": 143,
+      "systemuser,09f34b91-4d86-4fc8-8b41-8af3d91e94bf": 35,
+      "systemuser,33e3af6d-9b6c-4c1f-9efe-82d0f365ef59": 9,
+      "systemuser,556e9f3d-fc0e-4f50-9a1d-bcc7bb34d343": 8
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "owningbusinessunit",
+    "occurrence_count": 415,
+    "percentage_of_events": 3.83,
+    "cases_affected": 412,
+    "percentage_of_cases": 61.49,
+    "unique_old_values": 2,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Update": 248,
+      "Create": 167
+    },
+    "top_new_values": {
+      "businessunit,0a4ccfd6-e6d9-e611-80f2-5065f38aba91": 415
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "the000g_revenuetype",
+    "occurrence_count": 344,
+    "percentage_of_events": 3.17,
+    "cases_affected": 336,
+    "percentage_of_cases": 50.15,
+    "unique_old_values": 3,
+    "unique_new_values": 5,
+    "empty_old_count": 335,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Update": 177,
+      "Create": 167
+    },
+    "top_new_values": {
+      "604720001": 169,
+      "604720002": 87,
+      "604720000": 75,
+      "604720003": 11,
+      "604720004": 2
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "estimatedclosedate",
+    "occurrence_count": 306,
+    "percentage_of_events": 2.82,
+    "cases_affected": 187,
+    "percentage_of_cases": 27.91,
+    "unique_old_values": 75,
+    "unique_new_values": 130,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 166,
+      "Update": 140
+    },
+    "top_new_values": {
+      "10/31/25 0:00": 17,
+      "2/26/26 0:00": 15,
+      "2/20/26 0:00": 13,
+      "1/29/26 0:00": 13,
+      "11/27/25 0:00": 8
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "msdyn_forecastcategory",
+    "occurrence_count": 305,
+    "percentage_of_events": 2.81,
+    "cases_affected": 205,
+    "percentage_of_cases": 30.6,
+    "unique_old_values": 5,
+    "unique_new_values": 5,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 138
+    },
+    "top_new_values": {
+      "100000001": 174,
+      "100000005": 72,
+      "100000006": 44,
+      "100000002": 8,
+      "100000003": 7
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "statuscode",
+    "occurrence_count": 295,
+    "percentage_of_events": 2.72,
+    "cases_affected": 203,
+    "percentage_of_cases": 30.3,
+    "unique_old_values": 5,
+    "unique_new_values": 9,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 128
+    },
+    "top_new_values": {
+      "1": 174,
+      "3": 71,
+      "4": 40,
+      "100000003": 3,
+      "100000006": 2
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "statecode",
+    "occurrence_count": 292,
+    "percentage_of_events": 2.69,
+    "cases_affected": 203,
+    "percentage_of_cases": 30.3,
+    "unique_old_values": 3,
+    "unique_new_values": 3,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 125
+    },
+    "top_new_values": {
+      "0": 177,
+      "1": 71,
+      "2": 44
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "stepname",
+    "occurrence_count": 269,
+    "percentage_of_events": 2.48,
+    "cases_affected": 172,
+    "percentage_of_cases": 25.67,
+    "unique_old_values": 7,
+    "unique_new_values": 7,
+    "empty_old_count": 172,
+    "empty_new_count": 5,
+    "operation_breakdown": {
+      "Update": 265,
+      "Create": 4
+    },
+    "top_new_values": {
+      "14-Qualify": 168,
+      "15-Develop": 36,
+      "16-Propose": 35,
+      "17-Close": 23,
+      "": 5
+    },
+    "has_prefix": true
+  },
+  {
+    "field": "the000g_isrenewal",
+    "occurrence_count": 193,
+    "percentage_of_events": 1.78,
+    "cases_affected": 190,
+    "percentage_of_cases": 28.36,
+    "unique_old_values": 3,
+    "unique_new_values": 2,
+    "empty_old_count": 190,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 26
+    },
+    "top_new_values": {
+      "FALSE": 153,
+      "TRUE": 40
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "customerid",
+    "occurrence_count": 173,
+    "percentage_of_events": 1.6,
+    "cases_affected": 168,
+    "percentage_of_cases": 25.07,
+    "unique_old_values": 6,
+    "unique_new_values": 70,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 6
+    },
+    "top_new_values": {
+      "account,99057b55-dedf-e611-80f3-5065f38bd451": 19,
+      "account,c35c0ed0-7f3b-ea11-a812-000d3a44a237": 14,
+      "account,a87e6578-8100-ee11-8f6d-6045bd88d9db": 11,
+      "account,da116534-b573-ec11-8943-000d3abbe90b": 11,
+      "account,97410dac-e3d2-ed11-a7c7-6045bd8c5333": 7
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "pricelevelid",
+    "occurrence_count": 170,
+    "percentage_of_events": 1.57,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 2,
+    "unique_new_values": 3,
+    "empty_old_count": 167,
+    "empty_new_count": 3,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 3
+    },
+    "top_new_values": {
+      "pricelevel,8c7dd2fa-737a-ea11-a811-000d3a44a2a9": 165,
+      "": 3,
+      "pricelevel,dbf9d8bd-9dce-f011-8543-7c1e524d7bb1": 2
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "parentaccountid",
+    "occurrence_count": 169,
+    "percentage_of_events": 1.56,
+    "cases_affected": 168,
+    "percentage_of_cases": 25.07,
+    "unique_old_values": 2,
+    "unique_new_values": 65,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 163,
+      "Update": 6
+    },
+    "top_new_values": {
+      "account,99057b55-dedf-e611-80f3-5065f38bd451": 20,
+      "account,c35c0ed0-7f3b-ea11-a812-000d3a44a237": 14,
+      "account,a87e6578-8100-ee11-8f6d-6045bd88d9db": 11,
+      "account,da116534-b573-ec11-8943-000d3abbe90b": 11,
+      "account,97410dac-e3d2-ed11-a7c7-6045bd8c5333": 7
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "completefinalproposal",
+    "occurrence_count": 169,
+    "percentage_of_events": 1.56,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 2,
+    "unique_new_values": 2,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 2
+    },
+    "top_new_values": {
+      "FALSE": 167,
+      "TRUE": 2
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "developproposal",
+    "occurrence_count": 169,
+    "percentage_of_events": 1.56,
+    "cases_affected": 168,
+    "percentage_of_cases": 25.07,
+    "unique_old_values": 2,
+    "unique_new_values": 2,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 2
+    },
+    "top_new_values": {
+      "FALSE": 167,
+      "TRUE": 2
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "new_oppotunitytype",
+    "occurrence_count": 168,
+    "percentage_of_events": 1.55,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 2,
+    "unique_new_values": 2,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 1
+    },
+    "top_new_values": {
+      "100000000": 166,
+      "100000001": 2
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "msdyn_ordertype",
+    "occurrence_count": 168,
+    "percentage_of_events": 1.55,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 2,
+    "unique_new_values": 2,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 1
+    },
+    "top_new_values": {
+      "192350001": 166,
+      "192350000": 2
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "adx_readyfordistribution",
+    "occurrence_count": 168,
+    "percentage_of_events": 1.55,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 2,
+    "unique_new_values": 2,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 1
+    },
+    "top_new_values": {
+      "FALSE": 167,
+      "TRUE": 1
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "completeinternalreview",
+    "occurrence_count": 168,
+    "percentage_of_events": 1.55,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 2,
+    "unique_new_values": 2,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 1
+    },
+    "top_new_values": {
+      "FALSE": 167,
+      "TRUE": 1
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "identifycustomercontacts",
+    "occurrence_count": 168,
+    "percentage_of_events": 1.55,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 2,
+    "unique_new_values": 2,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 1
+    },
+    "top_new_values": {
+      "FALSE": 167,
+      "TRUE": 1
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "identifypursuitteam",
+    "occurrence_count": 168,
+    "percentage_of_events": 1.55,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 2,
+    "unique_new_values": 2,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 1
+    },
+    "top_new_values": {
+      "FALSE": 167,
+      "TRUE": 1
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "presentfinalproposal",
+    "occurrence_count": 168,
+    "percentage_of_events": 1.55,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 2,
+    "unique_new_values": 2,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 1
+    },
+    "top_new_values": {
+      "FALSE": 167,
+      "TRUE": 1
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "presentproposal",
+    "occurrence_count": 168,
+    "percentage_of_events": 1.55,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 2,
+    "unique_new_values": 2,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167,
+      "Update": 1
+    },
+    "top_new_values": {
+      "FALSE": 167,
+      "TRUE": 1
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "pricingerrorcode",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "0": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "skippricecalculation",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "0": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "totaldiscountamount",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "0": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "totaldiscountamount_base",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "0": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "totallineitemdiscountamount",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "0": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "totallineitemdiscountamount_base",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "0": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "processid",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "00000000-0000-0000-0000-000000000000": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "prioritycode",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "1": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "salesstagecode",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "1": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "exchangerate",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "1": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "opportunityratingcode",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "2": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "adx_feedbackyet",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "adx_partnercollaboration",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "adx_partnercreated",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "captureproposalfeedback",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "confirminterest",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "decisionmaker",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "filedebrief",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "identifycompetitors",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "isrevenuesystemcalculated",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "li_isinfluenced",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "msdyn_gdproptout",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "new_evaluatefit2",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "participatesinworkflow",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "pursuitdecision",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "resolvefeedback",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "sendthankyounote",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "FALSE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "transactioncurrencyid",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "transactioncurrency,eac0ae4f-ead9-e611-80f2-5065f3": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "evaluatefit",
+    "occurrence_count": 167,
+    "percentage_of_events": 1.54,
+    "cases_affected": 167,
+    "percentage_of_cases": 24.93,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 167,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 167
+    },
+    "top_new_values": {
+      "TRUE": 167
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "parentcontactid",
+    "occurrence_count": 161,
+    "percentage_of_events": 1.49,
+    "cases_affected": 161,
+    "percentage_of_cases": 24.03,
+    "unique_old_values": 1,
+    "unique_new_values": 73,
+    "empty_old_count": 161,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 161
+    },
+    "top_new_values": {
+      "contact,0efa4295-ab84-ef11-ac20-0022488194fb": 14,
+      "contact,54c06298-5f6b-ef11-bfe2-002248803d28": 9,
+      "contact,c5edd0fb-ff62-f011-bec3-00224886d23e": 7,
+      "contact,a77e6578-8100-ee11-8f6d-6045bd88d9db": 6,
+      "contact,97af0756-3a97-ed11-aad1-6045bd8c5333": 6
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "actualclosedate",
+    "occurrence_count": 126,
+    "percentage_of_events": 1.16,
+    "cases_affected": 106,
+    "percentage_of_cases": 15.82,
+    "unique_old_values": 7,
+    "unique_new_values": 58,
+    "empty_old_count": 112,
+    "empty_new_count": 10,
+    "operation_breakdown": {
+      "Update": 125,
+      "Create": 1
+    },
+    "top_new_values": {
+      "": 10,
+      "10/17/25 0:00": 9,
+      "9/26/25 0:00": 6,
+      "10/6/25 0:00": 6,
+      "8/28/25 0:00": 5
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "salesstage",
+    "occurrence_count": 122,
+    "percentage_of_events": 1.13,
+    "cases_affected": 102,
+    "percentage_of_cases": 15.22,
+    "unique_old_values": 3,
+    "unique_new_values": 2,
+    "empty_old_count": 102,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Update": 121,
+      "Create": 1
+    },
+    "top_new_values": {
+      "3": 112,
+      "0": 10
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "closeprobability",
+    "occurrence_count": 120,
+    "percentage_of_events": 1.11,
+    "cases_affected": 106,
+    "percentage_of_cases": 15.82,
+    "unique_old_values": 5,
+    "unique_new_values": 4,
+    "empty_old_count": 106,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 75,
+      "Update": 45
+    },
+    "top_new_values": {
+      "25": 66,
+      "75": 24,
+      "50": 18,
+      "100": 12
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "the000g__revenuetype",
+    "occurrence_count": 102,
+    "percentage_of_events": 0.94,
+    "cases_affected": 101,
+    "percentage_of_cases": 15.07,
+    "unique_old_values": 2,
+    "unique_new_values": 5,
+    "empty_old_count": 101,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Update": 63,
+      "Create": 39
+    },
+    "top_new_values": {
+      "604720002": 53,
+      "604720001": 33,
+      "604720003": 8,
+      "604720004": 6,
+      "604720005": 2
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "purchasetimeframe",
+    "occurrence_count": 91,
+    "percentage_of_events": 0.84,
+    "cases_affected": 90,
+    "percentage_of_cases": 13.43,
+    "unique_old_values": 2,
+    "unique_new_values": 5,
+    "empty_old_count": 90,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 82,
+      "Update": 9
+    },
+    "top_new_values": {
+      "1": 35,
+      "2": 22,
+      "0": 22,
+      "4": 10,
+      "3": 2
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "purchaseprocess",
+    "occurrence_count": 81,
+    "percentage_of_events": 0.75,
+    "cases_affected": 79,
+    "percentage_of_cases": 11.79,
+    "unique_old_values": 2,
+    "unique_new_values": 3,
+    "empty_old_count": 79,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 72,
+      "Update": 9
+    },
+    "top_new_values": {
+      "1": 33,
+      "0": 29,
+      "2": 19
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "new_contracttermmonths",
+    "occurrence_count": 75,
+    "percentage_of_events": 0.69,
+    "cases_affected": 65,
+    "percentage_of_cases": 9.7,
+    "unique_old_values": 8,
+    "unique_new_values": 14,
+    "empty_old_count": 64,
+    "empty_new_count": 1,
+    "operation_breakdown": {
+      "Create": 52,
+      "Update": 23
+    },
+    "top_new_values": {
+      "12": 27,
+      "36": 15,
+      "3": 8,
+      "2": 7,
+      "24": 3
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "new_contractterm",
+    "occurrence_count": 3,
+    "percentage_of_events": 0.03,
+    "cases_affected": 3,
+    "percentage_of_cases": 0.45,
+    "unique_old_values": 1,
+    "unique_new_values": 2,
+    "empty_old_count": 3,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Update": 2,
+      "Create": 1
+    },
+    "top_new_values": {
+      "100000002": 2,
+      "100000004": 1
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "finaldecisiondate",
+    "occurrence_count": 2,
+    "percentage_of_events": 0.02,
+    "cases_affected": 2,
+    "percentage_of_cases": 0.3,
+    "unique_old_values": 1,
+    "unique_new_values": 2,
+    "empty_old_count": 2,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Update": 2
+    },
+    "top_new_values": {
+      "8/29/25 0:00": 1,
+      "12/1/25 0:00": 1
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "the000g_purchaseorderstatus",
+    "occurrence_count": 2,
+    "percentage_of_events": 0.02,
+    "cases_affected": 2,
+    "percentage_of_cases": 0.3,
+    "unique_old_values": 1,
+    "unique_new_values": 2,
+    "empty_old_count": 2,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Update": 2
+    },
+    "top_new_values": {
+      "604720000": 1,
+      "604720002": 1
+    },
+    "has_prefix": null
+  },
+  {
+    "field": "originatingleadid",
+    "occurrence_count": 1,
+    "percentage_of_events": 0.01,
+    "cases_affected": 1,
+    "percentage_of_cases": 0.15,
+    "unique_old_values": 1,
+    "unique_new_values": 1,
+    "empty_old_count": 1,
+    "empty_new_count": 0,
+    "operation_breakdown": {
+      "Create": 1
+    },
+    "top_new_values": {
+      "lead,60da8ccc-7dae-48b2-9191-44253501dae0": 1
+    },
+    "has_prefix": null
+  }
+]

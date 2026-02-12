@@ -1,0 +1,128 @@
+{
+  "total_cases": 204,
+  "percentage_of_cases": 30.45,
+  "total_events": 204,
+  "operation_breakdown": {
+    "Update": 204
+  },
+  "is_creation_driven": false,
+  "creation_count": 0,
+  "non_creation_count": 204,
+  "field_breakdown_detailed": [
+    {
+      "field": "the000g_revenuetype",
+      "count": 130,
+      "percentage_of_single_events": 63.73,
+      "sample_value": "604720001",
+      "sample_actor": "ACTOR-0003"
+    },
+    {
+      "field": "ownerid",
+      "count": 74,
+      "percentage_of_single_events": 36.27,
+      "sample_value": "systemuser,efd3822d-8c8b-4619-8eb9-39ddf9c5c57f",
+      "sample_actor": "ACTOR-0003"
+    }
+  ],
+  "actor_breakdown": {
+    "ACTOR-0003": 204
+  },
+  "actor_concentration": {
+    "top_actor": 204,
+    "top_actor_name": "ACTOR-0003",
+    "unique_actors": 1
+  },
+  "bulk_operation_dates": {
+    "2025-08-17": 130,
+    "2025-12-02": 47,
+    "2025-10-22": 27
+  },
+  "sample_cases": [
+    {
+      "case_id": "ITEM-000025",
+      "operation": "Update",
+      "field": "the000g_revenuetype",
+      "new_value": "604720001",
+      "actor": "ACTOR-0003",
+      "timestamp": "2025-08-17T13:01:00"
+    },
+    {
+      "case_id": "ITEM-000029",
+      "operation": "Update",
+      "field": "the000g_revenuetype",
+      "new_value": "604720002",
+      "actor": "ACTOR-0003",
+      "timestamp": "2025-08-17T12:56:00"
+    },
+    {
+      "case_id": "ITEM-000032",
+      "operation": "Update",
+      "field": "the000g_revenuetype",
+      "new_value": "604720002",
+      "actor": "ACTOR-0003",
+      "timestamp": "2025-08-17T12:56:00"
+    },
+    {
+      "case_id": "ITEM-000034",
+      "operation": "Update",
+      "field": "the000g_revenuetype",
+      "new_value": "604720002",
+      "actor": "ACTOR-0003",
+      "timestamp": "2025-08-17T12:56:00"
+    },
+    {
+      "case_id": "ITEM-000036",
+      "operation": "Update",
+      "field": "the000g_revenuetype",
+      "new_value": "604720002",
+      "actor": "ACTOR-0003",
+      "timestamp": "2025-08-17T12:56:00"
+    },
+    {
+      "case_id": "ITEM-000039",
+      "operation": "Update",
+      "field": "ownerid",
+      "new_value": "systemuser,efd3822d-8c8b-4619-8eb9-39ddf9c5c57f",
+      "actor": "ACTOR-0003",
+      "timestamp": "2025-12-02T10:29:00"
+    },
+    {
+      "case_id": "ITEM-000042",
+      "operation": "Update",
+      "field": "ownerid",
+      "new_value": "systemuser,b5f00e27-78b3-4a71-90af-5dcef3c25bba",
+      "actor": "ACTOR-0003",
+      "timestamp": "2025-10-22T17:14:00"
+    },
+    {
+      "case_id": "ITEM-000043",
+      "operation": "Update",
+      "field": "ownerid",
+      "new_value": "systemuser,efd3822d-8c8b-4619-8eb9-39ddf9c5c57f",
+      "actor": "ACTOR-0003",
+      "timestamp": "2025-12-02T10:29:00"
+    },
+    {
+      "case_id": "ITEM-000045",
+      "operation": "Update",
+      "field": "the000g_revenuetype",
+      "new_value": "604720000",
+      "actor": "ACTOR-0003",
+      "timestamp": "2025-08-17T12:53:00"
+    },
+    {
+      "case_id": "ITEM-000047",
+      "operation": "Update",
+      "field": "the000g_revenuetype",
+      "new_value": "604720002",
+      "actor": "ACTOR-0003",
+      "timestamp": "2025-08-17T12:56:00"
+    }
+  ],
+  "hypothesis": {
+    "abandoned_opportunities": true,
+    "bulk_assignment": true,
+    "incomplete_audit_trail": false,
+    "creation_only": false
+  }
+}

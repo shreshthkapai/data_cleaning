@@ -1,0 +1,24 @@
+{
+  "total_cases": 670,
+  "total_events": 10840,
+  "cases_by_event_bucket": {
+    "1_event": 204,
+    "2_5_events": 273,
+    "6_10_events": 22,
+    "11_plus_events": 171
+  },
+  "duration_stats": {
+    "min_days": 0.0,
+    "max_days": 154.28,
+    "mean_days": 13.239417910447758,
+    "median_days": 0.0,
+    "zero_duration_cases": 509
+  },
+  "field_presence": {
+    "has_stepname": 172,
+    "has_statuscode": 203,
+    "has_statecode": 203,
+    "has_estimatedclosedate": 187,
+    "has_actualclosedate": 106
+  }
+}

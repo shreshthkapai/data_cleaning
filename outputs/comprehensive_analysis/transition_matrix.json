@@ -1,0 +1,227 @@
+{
+  "stepname": {
+    "total_transitions": 97,
+    "unique_transitions": 19,
+    "top_transitions": [
+      {
+        "from": "16-Propose",
+        "to": "15-Develop",
+        "count": 20
+      },
+      {
+        "from": "17-Close",
+        "to": "16-Propose",
+        "count": 16
+      },
+      {
+        "from": "14-Qualify",
+        "to": "15-Develop",
+        "count": 13
+      },
+      {
+        "from": "14-Qualify",
+        "to": "17-Close",
+        "count": 12
+      },
+      {
+        "from": "14-Qualify",
+        "to": "16-Propose",
+        "count": 9
+      },
+      {
+        "from": "15-Develop",
+        "to": "17-Close",
+        "count": 6
+      },
+      {
+        "from": "15-Develop",
+        "to": "16-Propose",
+        "count": 4
+      },
+      {
+        "from": "16-Propose",
+        "to": "17-Close",
+        "count": 3
+      },
+      {
+        "from": "15-Develop",
+        "to": "",
+        "count": 2
+      },
+      {
+        "from": "",
+        "to": "16-Propose",
+        "count": 2
+      }
+    ]
+  },
+  "statuscode": {
+    "total_transitions": 92,
+    "unique_transitions": 11,
+    "top_transitions": [
+      {
+        "from": "1",
+        "to": "3",
+        "count": 53
+      },
+      {
+        "from": "1",
+        "to": "4",
+        "count": 15
+      },
+      {
+        "from": "3",
+        "to": "1",
+        "count": 7
+      },
+      {
+        "from": "3",
+        "to": "3",
+        "count": 3
+      },
+      {
+        "from": "100000003",
+        "to": "3",
+        "count": 3
+      },
+      {
+        "from": "1",
+        "to": "1",
+        "count": 3
+      },
+      {
+        "from": "1",
+        "to": "100000006",
+        "count": 2
+      },
+      {
+        "from": "100000006",
+        "to": "4",
+        "count": 2
+      },
+      {
+        "from": "1",
+        "to": "756150004",
+        "count": 2
+      },
+      {
+        "from": "1",
+        "to": "100000001",
+        "count": 1
+      }
+    ]
+  },
+  "statecode": {
+    "total_transitions": 89,
+    "unique_transitions": 5,
+    "top_transitions": [
+      {
+        "from": "0",
+        "to": "1",
+        "count": 56
+      },
+      {
+        "from": "0",
+        "to": "2",
+        "count": 20
+      },
+      {
+        "from": "1",
+        "to": "0",
+        "count": 7
+      },
+      {
+        "from": "0",
+        "to": "0",
+        "count": 3
+      },
+      {
+        "from": "1",
+        "to": "1",
+        "count": 3
+      }
+    ]
+  },
+  "msdyn_forecastcategory": {
+    "total_transitions": 100,
+    "unique_transitions": 10,
+    "top_transitions": [
+      {
+        "from": "100000001",
+        "to": "100000005",
+        "count": 51
+      },
+      {
+        "from": "100000001",
+        "to": "100000006",
+        "count": 19
+      },
+      {
+        "from": "100000005",
+        "to": "100000001",
+        "count": 8
+      },
+      {
+        "from": "100000001",
+        "to": "100000002",
+        "count": 7
+      },
+      {
+        "from": "100000003",
+        "to": "100000005",
+        "count": 5
+      },
+      {
+        "from": "100000001",
+        "to": "100000001",
+        "count": 3
+      },
+      {
+        "from": "100000005",
+        "to": "100000005",
+        "count": 3
+      },
+      {
+        "from": "100000001",
+        "to": "100000003",
+        "count": 2
+      },
+      {
+        "from": "100000002",
+        "to": "100000001",
+        "count": 1
+      },
+      {
+        "from": "100000002",
+        "to": "100000006",
+        "count": 1
+      }
+    ]
+  },
+  "the000g_revenuetype": {
+    "total_transitions": 8,
+    "unique_transitions": 4,
+    "top_transitions": [
+      {
+        "from": "604720000",
+        "to": "604720001",
+        "count": 3
+      },
+      {
+        "from": "604720001",
+        "to": "604720000",
+        "count": 3
+      },
+      {
+        "from": "604720000",
+        "to": "604720002",
+        "count": 1
+      },
+      {
+        "from": "604720002",
+        "to": "604720001",
+        "count": 1
+      }
+    ]
+  }
+}

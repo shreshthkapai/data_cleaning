@@ -1,0 +1,193 @@
+[
+  {
+    "actor": "ACTOR-0009",
+    "event_count": 3606,
+    "percentage_of_events": 33.27,
+    "cases_handled": 90,
+    "percentage_of_cases": 13.43,
+    "unique_fields_modified": 56,
+    "operation_breakdown": {
+      "Create": 3326,
+      "Update": 280
+    },
+    "top_fields": {
+      "estimatedclosedate": 118,
+      "statecode": 101,
+      "statuscode": 101,
+      "msdyn_forecastcategory": 101,
+      "the000g_revenuetype": 76
+    },
+    "first_activity": "2025-08-14T10:39:00",
+    "last_activity": "2026-01-28T15:59:00",
+    "activity_span_days": 167
+  },
+  {
+    "actor": "ACTOR-0002",
+    "event_count": 3251,
+    "percentage_of_events": 29.99,
+    "cases_handled": 186,
+    "percentage_of_cases": 27.76,
+    "unique_fields_modified": 61,
+    "operation_breakdown": {
+      "Create": 2767,
+      "Update": 484
+    },
+    "top_fields": {
+      "owningbusinessunit": 181,
+      "ownerid": 181,
+      "estimatedclosedate": 103,
+      "statuscode": 71,
+      "msdyn_forecastcategory": 71
+    },
+    "first_activity": "2025-08-18T14:43:00",
+    "last_activity": "2026-01-29T14:21:00",
+    "activity_span_days": 163
+  },
+  {
+    "actor": "ACTOR-0003",
+    "event_count": 2451,
+    "percentage_of_events": 22.61,
+    "cases_handled": 373,
+    "percentage_of_cases": 55.67,
+    "unique_fields_modified": 61,
+    "operation_breakdown": {
+      "Create": 1619,
+      "Update": 832
+    },
+    "top_fields": {
+      "the000g_revenuetype": 191,
+      "ownerid": 187,
+      "owningbusinessunit": 104,
+      "msdyn_forecastcategory": 101,
+      "statecode": 90
+    },
+    "first_activity": "2025-08-11T08:16:00",
+    "last_activity": "2026-01-22T05:20:00",
+    "activity_span_days": 163
+  },
+  {
+    "actor": "ACTOR-0007",
+    "event_count": 513,
+    "percentage_of_events": 4.73,
+    "cases_handled": 9,
+    "percentage_of_cases": 1.34,
+    "unique_fields_modified": 55,
+    "operation_breakdown": {
+      "Create": 465,
+      "Update": 48
+    },
+    "top_fields": {
+      "statecode": 17,
+      "statuscode": 17,
+      "msdyn_forecastcategory": 17,
+      "estimatedclosedate": 10,
+      "customerid": 10
+    },
+    "first_activity": "2025-09-16T10:58:00",
+    "last_activity": "2026-01-14T14:24:00",
+    "activity_span_days": 120
+  },
+  {
+    "actor": "ACTOR-0005",
+    "event_count": 456,
+    "percentage_of_events": 4.21,
+    "cases_handled": 8,
+    "percentage_of_cases": 1.19,
+    "unique_fields_modified": 58,
+    "operation_breakdown": {
+      "Create": 439,
+      "Update": 17
+    },
+    "top_fields": {
+      "statuscode": 11,
+      "statecode": 10,
+      "msdyn_forecastcategory": 10,
+      "estimatedclosedate": 9,
+      "the000g_revenuetype": 9
+    },
+    "first_activity": "2025-10-06T15:03:00",
+    "last_activity": "2026-01-13T07:36:00",
+    "activity_span_days": 98
+  },
+  {
+    "actor": "ACTOR-0008",
+    "event_count": 244,
+    "percentage_of_events": 2.25,
+    "cases_handled": 169,
+    "percentage_of_cases": 25.22,
+    "unique_fields_modified": 1,
+    "operation_breakdown": {
+      "Update": 244
+    },
+    "top_fields": {
+      "stepname": 244
+    },
+    "first_activity": "2025-08-13T10:12:00",
+    "last_activity": "2026-01-29T14:21:00",
+    "activity_span_days": 169
+  },
+  {
+    "actor": "ACTOR-0006",
+    "event_count": 174,
+    "percentage_of_events": 1.61,
+    "cases_handled": 7,
+    "percentage_of_cases": 1.04,
+    "unique_fields_modified": 56,
+    "operation_breakdown": {
+      "Create": 166,
+      "Update": 8
+    },
+    "top_fields": {
+      "estimatedclosedate": 5,
+      "the000g__revenuetype": 5,
+      "purchaseprocess": 4,
+      "closeprobability": 4,
+      "new_contracttermmonths": 4
+    },
+    "first_activity": "2026-01-28T08:54:00",
+    "last_activity": "2026-01-29T13:54:00",
+    "activity_span_days": 1
+  },
+  {
+    "actor": "ACTOR-0004",
+    "event_count": 93,
+    "percentage_of_events": 0.86,
+    "cases_handled": 45,
+    "percentage_of_cases": 6.72,
+    "unique_fields_modified": 7,
+    "operation_breakdown": {
+      "Update": 93
+    },
+    "top_fields": {
+      "owningbusinessunit": 44,
+      "ownerid": 44,
+      "msdyn_forecastcategory": 1,
+      "actualclosedate": 1,
+      "salesstage": 1
+    },
+    "first_activity": "2025-08-12T10:44:00",
+    "last_activity": "2025-09-26T09:21:00",
+    "activity_span_days": 44
+  },
+  {
+    "actor": "ACTOR-0001",
+    "event_count": 52,
+    "percentage_of_events": 0.48,
+    "cases_handled": 1,
+    "percentage_of_cases": 0.15,
+    "unique_fields_modified": 52,
+    "operation_breakdown": {
+      "Create": 52
+    },
+    "top_fields": {
+      "pricingerrorcode": 1,
+      "skippricecalculation": 1,
+      "statecode": 1,
+      "totaldiscountamount": 1,
+      "totaldiscountamount_base": 1
+    },
+    "first_activity": "2026-01-28T15:54:00",
+    "last_activity": "2026-01-28T15:54:00",
+    "activity_span_days": 0
+  }
+]

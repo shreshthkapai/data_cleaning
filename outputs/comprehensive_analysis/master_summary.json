@@ -1,0 +1,100 @@
+{
+  "dataset_overview": {
+    "total_events": 10840,
+    "total_cases": 670,
+    "total_actors": 9,
+    "total_fields": 63,
+    "timespan_days": 171,
+    "date_range": [
+      "2025-08-11T08:16:00",
+      "2026-01-29T14:21:00"
+    ]
+  },
+  "critical_findings": {
+    "single_event_cases": {
+      "count": 204,
+      "percentage": 30.45,
+      "creation_count": 0,
+      "non_creation_count": 204,
+      "primary_fields": {
+        "the000g_revenuetype": 130,
+        "ownerid": 74
+      },
+      "hypothesis": {
+        "abandoned_opportunities": true,
+        "bulk_assignment": true,
+        "incomplete_audit_trail": false,
+        "creation_only": false
+      }
+    },
+    "timestamp_quality": {
+      "rows_dropped": 0,
+      "parse_success_rate": 100.0,
+      "format_distribution": {
+        "DD/MM/YYYY HH:MM": 6874,
+        "D/M/YY HH:MM": 2922,
+        "other": 1044
+      }
+    },
+    "stepname_integrity": {
+      "prefix_coverage": 97.77,
+      "violation_count": 38,
+      "violation_cases": 24
+    },
+    "actor_concentration": {
+      "top_1_actor_pct": 33.27,
+      "top_3_actors_pct": 85.87,
+      "total_actors": 9
+    },
+    "high_signal_fields": [
+      "ownerid",
+      "the000g_revenuetype"
+    ],
+    "noise_candidates": [
+      "pricelevelid",
+      "skippricecalculation",
+      "totaldiscountamount",
+      "totaldiscountamount_base",
+      "totallineitemdiscountamount",
+      "totallineitemdiscountamount_base",
+      "exchangerate",
+      "transactioncurrencyid"
+    ]
+  },
+  "pipeline_implications": {
+    "timestamp_handler": "single_format",
+    "case_filtering": "filter_2plus_events_recommended",
+    "sequence_tiebreaker": "prefix_primary_with_timestamp_fallback",
+    "bucket_strategy": {
+      "L1_STAGE": [
+        "stepname",
+        "statecode",
+        "statuscode",
+        "msdyn_forecastcategory"
+      ],
+      "L2_MILESTONE": [
+        "developproposal"
+      ],
+      "L3_ADMIN": [
+        "ownerid",
+        "owningbusinessunit",
+        "customerid",
+        "estimatedclosedate",
+        "actualclosedate",
+        "closeprobability",
+        "new_contractterm",
+        "pricelevelid"
+      ],
+      "KILL_NOISE": [
+        "pricelevelid",
+        "skippricecalculation",
+        "totaldiscountamount",
+        "totaldiscountamount_base",
+        "totallineitemdiscountamount",
+        "totallineitemdiscountamount_base",
+        "exchangerate",
+        "transactioncurrencyid"
+      ]
+    }
+  }
+}

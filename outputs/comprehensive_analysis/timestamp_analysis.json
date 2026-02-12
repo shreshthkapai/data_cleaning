@@ -1,0 +1,12 @@
+{
+  "rows_after_parse": 10840,
+  "rows_dropped_invalid": 0,
+  "format_distribution": {
+    "DD/MM/YYYY HH:MM": 6874,
+    "D/M/YY HH:MM": 2922,
+    "other": 1044
+  },
+  "min_timestamp": "2025-08-11T08:16:00",
+  "max_timestamp": "2026-01-29T14:21:00",
+  "timespan_days": 171.0
+}
