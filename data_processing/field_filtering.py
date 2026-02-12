@@ -7,7 +7,9 @@ import pandas as pd
 
 
 # KILL_NOISE fields from forensic analysis
-KILL_FIELDS = [
+KILL_FIELDS =[
+    "finaldecisiondate",
+    "originatingleadid",   
     "pricelevelid",
     "exchangerate",
     "pricingerrorcode",

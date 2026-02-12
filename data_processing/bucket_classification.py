@@ -63,6 +63,8 @@ BUCKET_FIELDS = {
         "parentcontactid",
     ],
     "KILL_NOISE": [
+        "finaldecisiondate",
+        "originatingleadid",
         "pricelevelid",
         "exchangerate",
         "pricingerrorcode",
@@ -121,3 +123,4 @@ def add_bucket_classifications(df, field_column='Field'):
     df['level'] = classifications.apply(lambda x: x[1])
     
     return df
+

@@ -24,10 +24,13 @@ def aggregate_create_operations(df, operation_column='Operation'):
     if len(create_df) == 0:
         return df
     
-    # Group Create operations by case_id and timestamp
+    # Group Create operations by case_id so each case contributes at most
+    # one canonical "Case Created" event.
     aggregated_creates = []
     
-    for (case_id, timestamp), group in create_df.groupby(['case_id', 'timestamp_utc']):
+    for case_id, group in create_df.groupby(['case_id']):
+        group = group.sort_values(by=['timestamp_utc'], ascending=True)
+
         # Take first row as template
         agg_row = group.iloc[0].copy()
         
@@ -48,3 +51,4 @@ def aggregate_create_operations(df, operation_column='Operation'):
         result = other_df
     
     return result
+
